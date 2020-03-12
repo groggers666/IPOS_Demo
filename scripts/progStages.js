@@ -118,13 +118,7 @@ function compExtract(){
   $('.progress .circle:nth-of-type(' + (i-1) + ') .label').html('&#10003;');
 		document.getElementById("tabsContent1").style.display = "block";
 		
-		if (docType == "pos")	{			
-			document.getElementById("disPos").style.display = "block";
-			document.getElementById("disNeg").style.display = "none";
-		} else	{			
-			document.getElementById("disPos").style.display = "none";
-			document.getElementById("disNeg").style.display = "block";
-		}
+		
 		
 }
 

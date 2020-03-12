@@ -388,6 +388,21 @@
         if (file.previewElement) {
 			
 			checkDocType(file.name);
+			if (docType == "pos")	{			
+					document.getElementById("disPos1").style.display = "block";
+					document.getElementById("disNeg1").style.display = "none";
+					document.getElementById("disPos2").style.display = "block";
+					document.getElementById("disNeg2").style.display = "none";
+					document.getElementById("disPos3").style.display = "block";
+					document.getElementById("disNeg3").style.display = "none";
+				} else	{			
+					document.getElementById("disPos1").style.display = "none";
+					document.getElementById("disNeg1").style.display = "block";
+					document.getElementById("disPos2").style.display = "none";
+					document.getElementById("disNeg2").style.display = "block";
+					document.getElementById("disPos3").style.display = "none";
+					document.getElementById("disNeg3").style.display = "block";
+				}
 			//Start progress Status
 			startChange();
 			//Load progress bar from progressBarScript.js
@@ -396,6 +411,7 @@
 			
 			setTimeout(function(){
 				displayBars("progABar");
+				
 
 			},2000);
 			

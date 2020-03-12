@@ -97,9 +97,16 @@
               <table>
                 <tr>
                   <td><div class="group">
-                      <input type="text" value="10201907064T" required>
-                      <span class="highlight"></span><span class="bar"></span>
-                      <label class="conLabel">Application Number</label>
+                      <div id="disNeg1">
+                        <input type="text" value="10201701302Y" required>
+                        <span class="highlight"></span><span class="bar"></span>
+                        <label class="conLabel">Application Number</label>
+                      </div>
+                      <div id="disPos1">
+                        <input type="text" value="10201907064T" required>
+                        <span class="highlight"></span><span class="bar"></span>
+                        <label class="conLabel">Application Number</label>
+                      </div>
                     </div></td>
                   <td><div class="miniButton">
                       <button class="mini" onclick="viewDataPoint('appNo')">view</button>
@@ -107,10 +114,16 @@
                 </tr>
                 <tr>
                   <td><div class="group">
-                      <input type="text" value="31/O7/2019" required>
-                      <span class="highlight"></span><span class="bar"></span>
-                      <label class="conLabel">Filing Date</label>
-					  <p><font size="2" color="red">Suggested: 31/07/2019 (Date Format)</font></p>
+                      <div id="disNeg2">
+                        <input type="text" value="17/O2/2017" required>
+                        <span class="highlight"></span><span class="bar"></span>
+                        <label class="conLabel">Filing Date</label>
+                        <font size="2" color="red">Suggested: 17/O2/2017 (Date Format)</font> </div>
+                      <div id="disPos2">
+                        <input type="text" value="31/O7/2019" required>
+                        <span class="highlight"></span><span class="bar"></span>
+                        <label class="conLabel">Filing Date</label>
+                        <font size="2" color="red">Suggested: 31/07/2019 (Date Format)</font> </div>
                     </div></td>
                   <td><div class="miniButton">
                       <button class="mini" onclick="viewDataPoint('filDate')">view</button>
@@ -139,25 +152,21 @@
                   <td><div class="miniButton"> </div></td>
                 </tr>
                 <tr>
-				
                   <td><div class="group">
-					  <div id="disPos">
-					  <input type="text" value="Positive" required>					  
-                      <span class="highlight"></span> <span class="bar"></span>
-                      <label class="conLabel">Positive or Negative Report?</label>
-						  </div>
-					  <div id="disNeg">
-					  <input type="text" value="Negative" required>					  
-                      <span class="highlight"></span> <span class="bar"></span>
-                      <label class="conLabel">Positive or Negative Report?</label>
-						  </div>
-					  </div></td>				
+                      <div id="disPos3">
+                        <input type="text" value="Positive" required>
+                        <span class="highlight"></span> <span class="bar"></span>
+                        <label class="conLabel">Positive or Negative Report?</label>
+                      </div>
+                      <div id="disNeg3">
+                        <input type="text" value="Negative" required>
+                        <span class="highlight"></span> <span class="bar"></span>
+                        <label class="conLabel">Positive or Negative Report?</label>
+                      </div>
+                    </div></td>
                   <td><div class="miniButton">
                       <button class="mini" onclick="viewDataPoint('stat')">view</button>
                     </div></td>
-					
-				
-                 
                 </tr>
               </table>
             </div>
